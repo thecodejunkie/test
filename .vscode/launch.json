@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "netcoreapp1.0",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/src/Application/bin/Debug/netcoreapp1.0/Application.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}/src/Application",
+            "stopAtEntry": false
+        },
+        
+        {
+            "name": "net452",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/src/Application/bin/Debug/net452/Application.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}/src/Application",
+            "stopAtEntry": false
+        },
+        
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processName": "<example>"
+        }
+    ]
+}

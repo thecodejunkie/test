@@ -1,0 +1,26 @@
+{
+    "compilationOptions": {
+        "debugType": "portable",
+        "emitEntryPoint": true,
+        "preserveCompilationContext": true,
+        "warningsAsErrors": true
+    },
+    
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Catalog": {
+                    "target": "project"
+                },
+                "Microsoft.NETCore.App": {
+                    "type": "platform",
+                    "version": "1.0.0-rc2-*"
+                }
+            },
+            "imports": [
+                "dotnet54",
+                "portable-net451+win8"
+            ]
+        }
+    }
+}
